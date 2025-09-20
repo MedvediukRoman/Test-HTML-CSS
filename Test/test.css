@@ -540,11 +540,10 @@ nav button{
     height: 435px;
 }
 .container-fifth{
-    display: inline-flex;
+    display: flex;
     align-items: flex-start;
     gap: 160px;
     width: 100%;
-
     flex-shrink: 0;
 }
 .left-container{
@@ -605,7 +604,8 @@ footer{
     flex-shrink: 0;
 }
 .Line{
-    width: 1250px;
+    width: 100%;
+    max-width: 1250px;
     height: 1px;
     background: #C0C0C0;
     margin-top: 50px;
@@ -622,4 +622,5 @@ footer p{
     font-weight: 400;
     line-height: normal;
     margin-top: 26px
+
 }
