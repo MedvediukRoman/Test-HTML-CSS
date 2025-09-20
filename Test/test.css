@@ -234,16 +234,15 @@ nav button{
     background: #6246EA;
     color: #FFFFFE;
 
+
 }
 .box p{
     width: 118px;
-    color: #232323;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
-
 }
 .box:nth-child(1) img {
     padding: 12px 13px 11px 13px;
@@ -545,6 +544,8 @@ nav button{
     align-items: flex-start;
     gap: 160px;
     width: 100%;
+
+    flex-shrink: 0;
 }
 .left-container{
     width: 284px;
